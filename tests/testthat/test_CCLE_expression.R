@@ -39,8 +39,3 @@ test_that("CCLE_expression() works", {
 
 
 
-for (i in seq_along(test_files)) {
-  print(test_files[i])
-  print(system.time(testthat::test_file(test_files[i])))
-}
-
