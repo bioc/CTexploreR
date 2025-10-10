@@ -36,3 +36,11 @@ test_that("CCLE_expression() works", {
   ## No valid tumor type returns an error
   expect_error(CCLE_expression(genes = "MAGEA1"), "No valid")
 })
+
+
+
+for (i in seq_along(test_files)) {
+  print(test_files[i])
+  print(system.time(testthat::test_file(test_files[i])))
+}
+
