@@ -36,3 +36,6 @@ test_that("CCLE_expression() works", {
   ## No valid tumor type returns an error
   expect_error(CCLE_expression(genes = "MAGEA1"), "No valid")
 })
+
+
+

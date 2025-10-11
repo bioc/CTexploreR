@@ -1,3 +1,9 @@
+# CTexploreR 1.5
+
+## CTexploreR 1.5.1
+
+- Move some tests to longtests.
+
 # CTexploreR 1.1
 
 ## CTexploreR 1.1.3
