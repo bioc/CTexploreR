@@ -1,5 +1,7 @@
 #' Check spelling of entered variables
 #'
+#' @noRd
+#'
 #' @description
 #'
 #' Checks the spelling of a vector of entered variable(s) comparing it
@@ -36,6 +38,8 @@ check_names <- function(variable, valid_vector) {
 
 #' Subset databases
 #'
+#' @noRd
+#'
 #' @description
 #'
 #' Check the presence of the genes in the database then subsets the database
@@ -70,6 +74,8 @@ subset_database <- function(variable = NULL, data, include_CTP = FALSE) {
 }
 
 #' Prepare methylation and expression data of a gene in TCGA tumors
+#'
+#' @noRd
 #'
 #' @description
 #'
