@@ -1,5 +1,9 @@
 # CTexploreR 1.5
 
+## CTexploreR 1.5.2
+
+- Remove documentation for internal functions.
+
 ## CTexploreR 1.5.1
 
 - Move some tests to longtests.
