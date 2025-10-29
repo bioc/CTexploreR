@@ -1,6 +1,6 @@
 Package: CTexploreR
 Title: Explores Cancer Testis Genes
-Version: 1.6.0
+Version: 1.7.0
 Authors@R:
     c(person(given = "Axelle",
            family = "Loriot",
